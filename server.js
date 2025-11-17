@@ -24,7 +24,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'https://urban-fix-frontend-phi.vercel.app/', // Your Vite frontend URL
+  origin: 'https://urban-fix-frontend-phi.vercel.app', // Your Vite frontend URL
   credentials: true
 }));
 
